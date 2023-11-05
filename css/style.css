@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(../images/temnye_abstraktnaya_tekstura.jpg);
+}
+
+
+.todolist {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    text-align: center;
+    width: 600px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    color: #66FCF1;
+}
+
+.notactive {
+    background-color: #ffffff23;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: #45a29da1;
+    border-radius: 10px;
+}
+
+#inp {
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 300px;
+    height: 50px;
+    color: #EDF5E1;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00000034;
+    border-color: #66FCF1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #EDF5E1;
+    font-size: 18px;
+    margin: 5px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #EDF5E1;
+    margin: 20px;
+}
